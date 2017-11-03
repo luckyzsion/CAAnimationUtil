@@ -77,7 +77,7 @@ NSString *const kCATransitionCameraIrisHollowClose = @"cameraIrisHollowClose";
 }                            
 ```
 
-PS：动画是直接加在self.view上的，可根据需要自行修改。
+PS：动画是直接加在self.view上的，可根据需要自行修改，具体效果见Demo吧。
 
 
 
