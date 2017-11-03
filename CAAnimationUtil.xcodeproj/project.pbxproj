@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B166CA71FAC4A39001E56B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B166CA61FAC4A39001E56B1 /* ViewController.m */; };
+		8B166CAE1FAC5FC3001E56B1 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B166CAD1FAC5FC3001E56B1 /* BasicViewController.m */; };
+		8B166CB11FAC608C001E56B1 /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B166CB01FAC608C001E56B1 /* TransitionViewController.m */; };
 		8B6D213A1FAC1A3F00786EED /* bg_0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6D21381FAC1A3F00786EED /* bg_0.jpeg */; };
 		8B6D213B1FAC1A3F00786EED /* bg_1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6D21391FAC1A3F00786EED /* bg_1.jpeg */; };
 		8BBD607E1FAB240D00FBA7CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD607D1FAB240D00FBA7CA /* main.m */; };
 		8BBD60811FAB240D00FBA7CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD60801FAB240D00FBA7CA /* AppDelegate.m */; };
-		8BBD60841FAB240D00FBA7CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD60831FAB240D00FBA7CA /* ViewController.m */; };
 		8BBD60871FAB240D00FBA7CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBD60851FAB240D00FBA7CA /* Main.storyboard */; };
 		8BBD60891FAB240D00FBA7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BBD60881FAB240D00FBA7CA /* Assets.xcassets */; };
 		8BBD608C1FAB240D00FBA7CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBD608A1FAB240D00FBA7CA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B166CA51FAC4A39001E56B1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B166CA61FAC4A39001E56B1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B166CAC1FAC5FC3001E56B1 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		8B166CAD1FAC5FC3001E56B1 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		8B166CAF1FAC608C001E56B1 /* TransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionViewController.h; sourceTree = "<group>"; };
+		8B166CB01FAC608C001E56B1 /* TransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
 		8B6D21381FAC1A3F00786EED /* bg_0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_0.jpeg; sourceTree = "<group>"; };
 		8B6D21391FAC1A3F00786EED /* bg_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_1.jpeg; sourceTree = "<group>"; };
 		8BBD60791FAB240D00FBA7CA /* CAAnimationUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAAnimationUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBD607D1FAB240D00FBA7CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BBD607F1FAB240D00FBA7CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8BBD60801FAB240D00FBA7CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8BBD60821FAB240D00FBA7CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8BBD60831FAB240D00FBA7CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8BBD60861FAB240D00FBA7CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BBD60881FAB240D00FBA7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BBD608B1FAB240D00FBA7CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B166CAB1FAC5FA5001E56B1 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				8B166CAC1FAC5FC3001E56B1 /* BasicViewController.h */,
+				8B166CAD1FAC5FC3001E56B1 /* BasicViewController.m */,
+				8B166CAF1FAC608C001E56B1 /* TransitionViewController.h */,
+				8B166CB01FAC608C001E56B1 /* TransitionViewController.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
 		8BBD60701FAB240D00FBA7CA = {
 			isa = PBXGroup;
 			children = (
@@ -62,10 +79,11 @@
 		8BBD607B1FAB240D00FBA7CA /* CAAnimationUtil */ = {
 			isa = PBXGroup;
 			children = (
+				8B166CAB1FAC5FA5001E56B1 /* Animation */,
 				8BBD607F1FAB240D00FBA7CA /* AppDelegate.h */,
 				8BBD60801FAB240D00FBA7CA /* AppDelegate.m */,
-				8BBD60821FAB240D00FBA7CA /* ViewController.h */,
-				8BBD60831FAB240D00FBA7CA /* ViewController.m */,
+				8B166CA51FAC4A39001E56B1 /* ViewController.h */,
+				8B166CA61FAC4A39001E56B1 /* ViewController.m */,
 				8BBD607C1FAB240D00FBA7CA /* Supporting Files */,
 			);
 			path = CAAnimationUtil;
@@ -158,9 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BBD60841FAB240D00FBA7CA /* ViewController.m in Sources */,
+				8B166CA71FAC4A39001E56B1 /* ViewController.m in Sources */,
 				8BBD60811FAB240D00FBA7CA /* AppDelegate.m in Sources */,
+				8B166CAE1FAC5FC3001E56B1 /* BasicViewController.m in Sources */,
 				8BBD607E1FAB240D00FBA7CA /* main.m in Sources */,
+				8B166CB11FAC608C001E56B1 /* TransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +249,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -271,6 +291,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
