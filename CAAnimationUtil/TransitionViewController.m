@@ -8,6 +8,17 @@
 
 #import "TransitionViewController.h"
 
+// 全局常量
+NSString * const kCATransitionCube = @"cube";
+NSString * const kCATransitionSuckEffect = @"suckEffect";
+NSString * const kCATransitionOglFlip = @"oglFlip";
+NSString * const kCATransitionRippleEffect = @"rippleEffect";
+NSString * const kCATransitionPageCurl = @"pageCurl";
+NSString * const kCATransitionPageUnCurl = @"pageUnCurl";
+NSString * const kCATransitionCameraIrisHollowOpen = @"cameraIrisHollowOpen";
+NSString * const kCATransitionCameraIrisHollowClose = @"cameraIrisHollowClose";
+
+
 @interface TransitionViewController ()
 
 // 视图
@@ -114,35 +125,35 @@
             break;
             
         case kAnimationTypeCube:
-            [self transitionWithType:@"cube" subtype:subtypeString];
+            [self transitionWithType:kCATransitionCube subtype:subtypeString];
             break;
             
         case kAnimationTypeSuckEffect:
-            [self transitionWithType:@"suckEffect" subtype:subtypeString];
+            [self transitionWithType:kCATransitionSuckEffect subtype:subtypeString];
             break;
             
         case kAnimationTypeOglFlip:
-            [self transitionWithType:@"oglFlip" subtype:subtypeString];
+            [self transitionWithType:kCATransitionOglFlip subtype:subtypeString];
             break;
             
         case kAnimationTypeRippleEffect:
-            [self transitionWithType:@"rippleEffect" subtype:subtypeString];
+            [self transitionWithType:kCATransitionRippleEffect subtype:subtypeString];
             break;
             
         case kAnimationTypePageCurl:
-            [self transitionWithType:@"pageCurl" subtype:subtypeString];
+            [self transitionWithType:kCATransitionPageCurl subtype:subtypeString];
             break;
             
         case kAnimationTypePageUnCurl:
-            [self transitionWithType:@"pageUnCurl" subtype:subtypeString];
+            [self transitionWithType:kCATransitionPageUnCurl subtype:subtypeString];
             break;
             
         case kAnimationTypeCameraIrisHollowOpen:
-            [self transitionWithType:@"cameraIrisHollowOpen" subtype:subtypeString];
+            [self transitionWithType:kCATransitionCameraIrisHollowOpen subtype:subtypeString];
             break;
             
         case kAnimationTypeCameraIrisHollowClose:
-            [self transitionWithType:@"cameraIrisHollowClose" subtype:subtypeString];
+            [self transitionWithType:kCATransitionCameraIrisHollowClose subtype:subtypeString];
             break;
             
         case kAnimationTypeCurlDown:

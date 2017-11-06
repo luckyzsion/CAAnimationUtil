@@ -105,7 +105,7 @@ QuartzCore框架下CAAnimation的动画集合：移动、旋转、缩放、弹�
 {
     // x方向平移
     CABasicAnimation *animation1 = [CABasicAnimation animationWithKeyPath:@"transform.translation.x"];
-    // 平移80
+    // 平移100
     animation1.toValue = @(100);
     
     // 绕Z轴中心旋转
@@ -164,14 +164,15 @@ typedef NS_ENUM(NSInteger,AnimationType) {
 其中包含8个私有API，使用过程需要留意，私有API是不被AppStore接受的。
 
 ```ruby
-NSString *const kCATransitionCube = @"cube";  
-NSString *const kCATransitionSuckEffect = @"suckEffect"; 
-NSString *const kCATransitionOglFlip = @"oglFlip";  
-NSString *const kCATransitionRippleEffect = @"rippleEffect";  
-NSString *const kCATransitionPageCurl = @"pageCurl"; 
-NSString *const kCATransitionPageUnCurl = @"pageUnCurl";   
-NSString *const kCATransitionCameraIrisHollowOpen = @"cameraIrisHollowOpen";
-NSString *const kCATransitionCameraIrisHollowClose = @"cameraIrisHollowClose";
+// 全局常量
+NSString * const kCATransitionCube = @"cube";
+NSString * const kCATransitionSuckEffect = @"suckEffect";
+NSString * const kCATransitionOglFlip = @"oglFlip";
+NSString * const kCATransitionRippleEffect = @"rippleEffect";
+NSString * const kCATransitionPageCurl = @"pageCurl";
+NSString * const kCATransitionPageUnCurl = @"pageUnCurl";
+NSString * const kCATransitionCameraIrisHollowOpen = @"cameraIrisHollowOpen";
+NSString * const kCATransitionCameraIrisHollowClose = @"cameraIrisHollowClose";
 ```
 
 **使用方式**

@@ -10,6 +10,7 @@
 
 #define DURATION 0.7f
 
+// 类型枚举
 typedef NS_ENUM(NSInteger,AnimationType) {
     kAnimationTypeFade,                         //淡入淡出
     kAnimationTypeMoveIn,                       //覆盖
@@ -28,7 +29,6 @@ typedef NS_ENUM(NSInteger,AnimationType) {
     kAnimationTypeFlipFromLeft,                 //左翻转
     kAnimationTypeFlipFromRight                 //右翻转
 } ;
-
 
 @interface TransitionViewController : UIViewController
 

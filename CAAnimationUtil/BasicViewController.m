@@ -125,7 +125,7 @@
 {
     // x方向平移
     CABasicAnimation *animation1 = [CABasicAnimation animationWithKeyPath:@"transform.translation.x"];
-    // 平移80
+    // 平移100
     animation1.toValue = @(100);
     
     // 绕Z轴中心旋转
